@@ -1,6 +1,6 @@
 🏋️‍♂️ Flutter BMI Calculator App
 
-A sleek, fully-featured BMI (Body Mass Index) Calculator built with Flutter that empowers users to track their health effortlessly. This app provides accurate BMI calculations, supports multiple units, and presents results in a visually engaging way. Perfect for fitness enthusiasts, health-conscious individuals, and recruiters looking for clean, professional Flutter implementations.
+A modern, fully-featured BMI (Body Mass Index) Calculator built with Flutter. Designed for health-conscious users, this app calculates BMI accurately, supports multiple units, and presents results with intuitive color-coded feedback. Perfect for demonstrating Flutter UI skills, problem-solving, and attention to detail to recruiters.
 
 🌟 Features
 
@@ -8,62 +8,63 @@ Multiple Unit Support
 
 Weight: Kilograms (kg) & Pounds (lb)
 
-Height: Meters (m), Centimeters (cm), & Feet/Inches (ft/in)
+Height: Meters (m), Centimeters (cm), Feet & Inches (ft/in)
 
 Decimal Input Support
 
-Accepts decimal values for precise calculations.
+Accepts decimal values for precise BMI calculation
 
-BMI Calculation in Metric System
+Accurate BMI Calculation
 
-Converts all inputs to metric for consistent and accurate BMI computation.
+Uses standard BMI formula: BMI = weight / (height * height)
 
-Visual & Intuitive Feedback
+Converts all units to metric using precise formulas
 
-Displays BMI score with color-coded categories (Underweight, Normal, Overweight, Obese) for quick understanding.
+Visual Feedback with Color Coding
+
+Underweight → Blue
+
+Normal → Green
+
+Obese → Red
 
 Robust Input Validation
 
-Ensures valid, non-empty entries before performing calculations.
+Ensures all fields are correctly filled before calculation
 
-User-friendly error messages guide the user in case of invalid input.
+Prevents crashes and guides users with friendly messages
 
-Clear & Responsive UI
+User-friendly & Responsive UI
 
-Designed using Flutter’s SegmentedButton, TextField, and custom widgets for smooth and modern user experience.
+Uses Flutter SegmentedButton, custom input fields, and result cards
+
+Smooth and intuitive experience across devices
 
 🛠️ Built With
 
-Flutter – UI toolkit for crafting natively compiled applications
+Flutter – For cross-platform, responsive UI
 
-Dart – Programming language for Flutter development
+Dart – Clean and maintainable programming
 
-Custom Widgets – Modular components for input fields, segmented buttons, and result display
+Custom Widgets – Input fields, segmented buttons, and BMI result cards
 
 💡 Code Highlights
 
-Dynamic Unit Conversion
+Dynamic Unit Conversion – Automatically converts inputs to metric for calculation
 
-Handles multiple units and converts them to metric automatically for BMI calculation.
+Precision Handling – Decimal support ensures accurate BMI results
 
-Precision Handling
+Color-coded Feedback – Intuitive visual cues for BMI categories
 
-Supports decimal inputs and displays results rounded to one decimal place.
+State Management – Uses StatefulWidget & setState for responsive updates
 
-Uses StatefulWidget and setState efficiently for responsive UI updates.
-
-Color-coded BMI Feedback
-
-Intuitive visualization for BMI category with background colors.
+Robust Validation – Prevents null and invalid inputs
 
 🏆 You Will Love It
 
-Demonstrates Flutter UI proficiency with responsive layouts and modern widgets.
+Demonstrates Flutter UI expertise with clean and modular code
 
-Shows attention to detail with input validation, decimal support, and multiple unit handling.
+Highlights problem-solving: multiple units, decimal inputs, precise calculations
 
-Highlights practical problem-solving – a real-world, health-focused application.
+Shows attention to detail with input validation and color-coded categories
 
-Clear and maintainable code structure – easy for teams to integrate or extend.
-
-Made with ❤️ using Flutter
